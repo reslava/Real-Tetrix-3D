@@ -1,0 +1,143 @@
+{
+    "m_SelectedDeviceId": "CQ30012669",
+    "m_SelectedPackage": {
+        "deviceId": "CQ30012669",
+        "name": "com.Buenrato.RealTetris3D",
+        "processId": 1358,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.sonymobile.home",
+            "processId": 3285,
+            "exited": false
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 13672,
+            "exited": true
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 15641,
+            "exited": true
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 17774,
+            "exited": true
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 23630,
+            "exited": true
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 24493,
+            "exited": true
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 31476,
+            "exited": false
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 4004,
+            "exited": false
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 26635,
+            "exited": false
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 27601,
+            "exited": false
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 1358,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.13:5555",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 4700,
+            "exited": true
+        },
+        {
+            "deviceId": "192.168.0.13:5555",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 25848,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_Filter": "GPS",
+    "m_FilterIsRegularExpression": true,
+    "m_SymbolPaths": []
+}

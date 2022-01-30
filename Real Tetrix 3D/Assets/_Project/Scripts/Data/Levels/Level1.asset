@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc59f9dc587c714981e8afbe88bc4ea, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  level: 1
+  levelScoreMultiplier: 1
+  size: 2
+  planesToDo: 2
+  levelUpMaxTimeTo: 240
+  planeMaxTimeTo: 30
+  levelName: Basic
+  description: Play with this easy level!\nIt is so easy to get 2 planes done at
+    once and get more points, give it a try! One block available get a plane just
+    by rotating it ;-)
+  _piecesAvailables:
+  - _piece: {fileID: 8261706336674589666, guid: 41a37eceebb7f3f4bbaa76051bc25c6e,
+      type: 3}
+    _chance: 10
+  - _piece: {fileID: 7299879080121839080, guid: 81ee28a1074b2dc43889fd1213403685,
+      type: 3}
+    _chance: 10
+  - _piece: {fileID: 8208106321554961297, guid: 94fcba4d6882ab84f9db4d822c3805ea,
+      type: 3}
+    _chance: 10
+  - _piece: {fileID: 9022864055027823391, guid: 5d89f75055359b14d8fc40625afeafe1,
+      type: 3}
+    _chance: 10
+  - _piece: {fileID: 2349986535211459417, guid: 074d5c098cb010f479048406effb5eac,
+      type: 3}
+    _chance: 10

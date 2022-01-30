@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a2b281c1586aa484ca9532a9b237145d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Banner: {instanceID: 0}
+  - Cube: {instanceID: 0}
+  - BlockMaterial: {instanceID: 0}
+  - Border: {instanceID: 0}
+  - CanvasControls: {instanceID: 0}
+  - CameraControls: {instanceID: 0}
+  - CanvasMenu: {instanceID: 0}
+  - CanvasHelp: {instanceID: 0}
+  - EventSystem: {instanceID: 0}
+  - MoveSprite: {instanceID: 0}
+  - RotateSprite: {instanceID: 0}
+  - gameData: {fileID: 11400000, guid: 64564c3821e103b4d828adfab43852f9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

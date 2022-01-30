@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8448656858995392019
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4111673057939987776, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 2944393170586380864, guid: e43f0da77c5653447ad839d43ef0d51e,
+        type: 3}
+    - target: {fileID: 6379539136737997131, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6379539136737997131, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95d6b86a67e36b043bfab6b3f961032b, type: 2}
+    - target: {fileID: 6379539136737997131, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 57b4c987d020a134bb4dfb1956ca23e5, type: 2}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196446129978279166, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8117931449917388801, guid: 06547a318e9c1e54782505b8eb0dea8a,
+        type: 3}
+      propertyPath: m_Name
+      value: CubeHourglass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06547a318e9c1e54782505b8eb0dea8a, type: 3}
+--- !u!1 &402798400650233362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8117931449917388801, guid: 06547a318e9c1e54782505b8eb0dea8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8448656858995392019}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-6679166033598095931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402798400650233362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 136c180f1245bfe488a913e0367a20e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: CubeHourglass
+  _gameData: {fileID: 11400000, guid: 64564c3821e103b4d828adfab43852f9, type: 2}
+  _planeSecondsExtra: 10
+  _levelUpSecondsExtratime: 30

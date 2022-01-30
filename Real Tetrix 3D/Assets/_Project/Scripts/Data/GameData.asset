@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7095dedbab7add54cae93aee81bd736d, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  gameDataRecords: {fileID: 11400000, guid: 50cb87a364b4e504197bcf2306ec4b4f, type: 2}
+  Lives: 3
+  Score: 0
+  ScoreNew: 4
+  ScoreCurrentLevel: 0
+  planesDone: 0
+  planesDoneAtOnce: 0
+  Level: 1
+  Blocks: 4
+  BlocksPoints: 4
+  Coins: 0
+  CoinsPoints: 0
+  PlaneDoneAtOnce: 0
+  planesExtra: 0
+  LevelsData:
+  - {fileID: 11400000, guid: d348f984352268e4491278037fdf28e4, type: 2}
+  - {fileID: 11400000, guid: c8c0526115ce7a74084664fbde94418c, type: 2}
+  - {fileID: 11400000, guid: 59469ac48e94b4a40bbf67bdedebbf44, type: 2}
+  - {fileID: 11400000, guid: 8b14029e1f806aa46a1fdac95c37a25b, type: 2}
+  - {fileID: 11400000, guid: e7dfabe521e8f124d85b3a5d39c9a761, type: 2}
+  - {fileID: 11400000, guid: b5278357f26648849b6728e3f269db9f, type: 2}
+  - {fileID: 11400000, guid: d83184bff281d1e4a9224f32217dd84a, type: 2}
+  - {fileID: 11400000, guid: a75e7915938936b44a07bf3a8e3ba4b0, type: 2}
+  - {fileID: 11400000, guid: 72dd09faa3eda644082ebc4aa84fd788, type: 2}
+  - {fileID: 11400000, guid: aa1e083b680ae204d984b386b6c8e6eb, type: 2}
+  - {fileID: 11400000, guid: 750e8f71715cdd045840eb18dc04a6cf, type: 2}
+  - {fileID: 11400000, guid: 1fe7de83d71235546a36001beedb7749, type: 2}
+  - {fileID: 11400000, guid: b17f383f6ea69394186d4d3079680655, type: 2}
+  - {fileID: 11400000, guid: d672bd2a4794ab347b25d612ffa553bb, type: 2}
+  - {fileID: 11400000, guid: 277831c13a4da464d866e2df018db52f, type: 2}
+  - {fileID: 11400000, guid: 370a32fa2bc4d9640a67402676d80bfd, type: 2}
+  CubesAvailables:
+  - {fileID: 531504685328410413, guid: 28107267790f13147a306f4d1db6577f, type: 3}
+  - {fileID: 984350387797306525, guid: 0782b6de3171ef240b849881ade35f7d, type: 3}
+  - {fileID: 5450147625121695992, guid: 93d502553781eac4d993c0a8c71a1f27, type: 3}
+  - {fileID: 3594665865138074374, guid: e3e14c24a3b494541b2506f820923cf2, type: 3}
+  - {fileID: 4029256036700722241, guid: f8e0310585677e144b1f6a96f8059070, type: 3}
+  - {fileID: 1933722971757264646, guid: a621fab1b6590a3418ccae7ec2b1de92, type: 3}
+  - {fileID: 2179417506326315547, guid: 84f191ec0344d084692c8777f17341bf, type: 3}
+  - {fileID: 6215880116973389053, guid: 51c37e3a209cb6247825368c89821874, type: 3}
+  - {fileID: 5091704352071486984, guid: 947b72a578c332c4bb5ba16adcc42cc9, type: 3}
+  - {fileID: 3418565686635338438, guid: 64ef362661b2ce94eafefdee04cc431e, type: 3}
+  - {fileID: -6679166033598095931, guid: 86fb9e297d7b941489f4fe4601b5a4f0, type: 3}
+  PlanesToDo: 2
+  levelUpTimer: 25.404356
+  LevelUpTimeTo: 215
+  planeTimer: 25.404356
+  PlaneTimeTo: 5
+  PiecePrefab: {fileID: 8261706336674589666, guid: 41a37eceebb7f3f4bbaa76051bc25c6e,
+    type: 3}
+  PiecePrefabNext: {fileID: 8208106321554961297, guid: 94fcba4d6882ab84f9db4d822c3805ea,
+    type: 3}
+  iBlock: 2
+  iBlockNext: 3
+  BlockHelperPosition: {x: -0.1, y: 0.7, z: 0.1}
+  CubesDroppedList:
+  - Id: Cube1
+    x: -0.1
+    y: 0.1
+    z: 0.1
+  - Id: Cube2
+    x: 0.1
+    y: 0.10000001
+    z: 0.1
+  - Id: Cube2
+    x: 0.1
+    y: 0.3
+    z: 0.1
+  - Id: Cube3
+    x: -0.1
+    y: 0.3
+    z: 0.1
+  - Id: Cube3
+    x: -0.1
+    y: 0.5
+    z: 0.1
+  - Id: Cube3
+    x: 0.1
+    y: 0.5
+    z: 0.1
