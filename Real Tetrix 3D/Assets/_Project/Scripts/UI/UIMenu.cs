@@ -28,6 +28,10 @@ public class UIMenu : Singleton<UIMenu>
     [SerializeField] private TextMeshProUGUI TextLevelData;    
     [SerializeField] private TextMeshProUGUI TextLevelDescription;   
 
+    [Header("*** Board")]	    
+    [SerializeField] private GameObject _table;   
+    [SerializeField] private GameObject _plane;   
+
     #region MONOBEHAVIOURS EVENTS *******************************************************
 
     private void IdToPiecesAvailablesInitialize() 
@@ -82,6 +86,16 @@ public class UIMenu : Singleton<UIMenu>
 			ButtonPlay.interactable = true;			            
             ButtonSettings.interactable = true;			
 		}
+        if(level > 16)
+        {
+            _table.transform.localScale = new Vector3(2, 2, 1);
+            _plane.transform.localScale = new Vector3(2, 2, 1);
+        }            
+        else
+        {
+            _table.transform.localScale = new Vector3(1, 1, 1);
+            _plane.transform.localScale = new Vector3(1, 1, 1);   
+        }
 
         LevelData levelData = gameData.LevelsData[level - 1];
         TextLevelName.text = levelData.Name;

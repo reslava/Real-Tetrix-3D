@@ -19,7 +19,7 @@ MonoBehaviour:
   ScoreCurrentLevel: 0
   planesDone: 0
   planesDoneAtOnce: 0
-  Level: 1
+  Level: 17
   Blocks: 4
   BlocksPoints: 4
   Coins: 0
@@ -43,6 +43,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d672bd2a4794ab347b25d612ffa553bb, type: 2}
   - {fileID: 11400000, guid: 277831c13a4da464d866e2df018db52f, type: 2}
   - {fileID: 11400000, guid: 370a32fa2bc4d9640a67402676d80bfd, type: 2}
+  - {fileID: 11400000, guid: d01f20ea22f89074cb4411aea003317d, type: 2}
+  - {fileID: 11400000, guid: 2c7edc5e580ce014782b8f41421cc2d5, type: 2}
+  - {fileID: 11400000, guid: ed1ced20d7976a74e995fd0ad4051e69, type: 2}
+  - {fileID: 11400000, guid: 295522c4bacb72847bb6013f0b31ed73, type: 2}
+  - {fileID: 11400000, guid: c9bb93bd3f7aad344a5e5614620d21af, type: 2}
+  - {fileID: 11400000, guid: 7b0c90c9b164ed544a0d12f40f5aebdc, type: 2}
   CubesAvailables:
   - {fileID: 531504685328410413, guid: 28107267790f13147a306f4d1db6577f, type: 3}
   - {fileID: 984350387797306525, guid: 0782b6de3171ef240b849881ade35f7d, type: 3}
@@ -55,15 +61,13 @@ MonoBehaviour:
   - {fileID: 5091704352071486984, guid: 947b72a578c332c4bb5ba16adcc42cc9, type: 3}
   - {fileID: 3418565686635338438, guid: 64ef362661b2ce94eafefdee04cc431e, type: 3}
   - {fileID: -6679166033598095931, guid: 86fb9e297d7b941489f4fe4601b5a4f0, type: 3}
-  PlanesToDo: 2
-  levelUpTimer: 25.404356
-  LevelUpTimeTo: 215
-  planeTimer: 25.404356
-  PlaneTimeTo: 5
-  PiecePrefab: {fileID: 8261706336674589666, guid: 41a37eceebb7f3f4bbaa76051bc25c6e,
-    type: 3}
-  PiecePrefabNext: {fileID: 8208106321554961297, guid: 94fcba4d6882ab84f9db4d822c3805ea,
-    type: 3}
+  PlanesToDo: 8
+  levelUpTimer: 0
+  LevelUpTimeTo: 235
+  planeTimer: 0
+  PlaneTimeTo: 25
+  PiecePrefab: {fileID: 6768036231858046527, guid: 2213d9c11e1c73f468b6e72ce1bc5274, type: 3}
+  PiecePrefabNext: {fileID: 6768036231858046527, guid: 2213d9c11e1c73f468b6e72ce1bc5274, type: 3}
   iBlock: 2
   iBlockNext: 3
   BlockHelperPosition: {x: -0.1, y: 0.7, z: 0.1}
