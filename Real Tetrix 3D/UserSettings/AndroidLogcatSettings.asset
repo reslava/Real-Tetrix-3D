@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "CQ30012669",
         "name": "com.Buenrato.RealTetris3D",
-        "processId": 29553,
+        "processId": 3680,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -78,6 +78,12 @@
             "deviceId": "CQ30012669",
             "name": "com.Buenrato.RealTetris3D",
             "processId": 29553,
+            "exited": false
+        },
+        {
+            "deviceId": "CQ30012669",
+            "name": "com.Buenrato.RealTetris3D",
+            "processId": 3680,
             "exited": false
         },
         {

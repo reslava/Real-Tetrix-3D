@@ -51,8 +51,7 @@ public class Planes : MonoBehaviour
 		var isPlaneFull = hitsCounter == gameData.Size * gameData.Size;
 		if(isPlaneFull)		
 		{
-			gameData.NewScoreInitialize();
-			Debug.Log("PREFAB PLANE DONE");
+			gameData.NewScoreInitialize();			
 			foreach(var cube in CubesInLevel(level))
 				cube.GetComponent<Cube>().PlaneDoneAction();
 				//cube.GetComponent<ICube>().PlaneDoneAction();

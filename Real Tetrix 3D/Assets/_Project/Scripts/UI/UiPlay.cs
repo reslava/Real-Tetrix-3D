@@ -48,6 +48,8 @@ public class UiPlay : MonoBehaviour
         
         Events.OnSetScore.AddListener(SetScore);	
         Events.OnPlaneDone.AddListener(OnPlaneDone);        
+		Events.OnPlaneDoneAndCleaned.AddListener(ExplosionActivate);
+
         //Events.OnNewScore.AddListener(OnNew);
 	}
 
@@ -61,6 +63,7 @@ public class UiPlay : MonoBehaviour
         Events.OnSetScore.RemoveListener(SetScore);	       
         //
         Events.OnPlaneDone.RemoveListener(OnPlaneDone);        
+        Events.OnPlaneDoneAndCleaned.RemoveListener(ExplosionActivate);
 	}     
     #endregion 
 
@@ -93,7 +96,7 @@ public class UiPlay : MonoBehaviour
             textScoreMaths.text += $"{gameData.CoinsPoints}\n";
         textScoreMaths.text += $"{gameData.BlocksPoints}\n" + string.Format("{0:N0}",gameData.ScoreNew);
         
-        Invoke("HideNewScore", 5);
+        Invoke("HideNewScore", 5);        
     }
     public void HideNewScore()
     {
