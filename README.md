@@ -1,2 +1,2 @@
 # Real-Tetrix-3D
-Real Tetrix 3D
+3D version of popular game Tetris for Android. Many otions for configuration: size, levels, prizes, etc... 
